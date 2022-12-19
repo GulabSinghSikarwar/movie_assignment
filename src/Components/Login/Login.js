@@ -6,8 +6,8 @@ function Login({ updateUser }) {
     const navigate = useNavigate();
 
     const loginHandeler = () => {
-        alert("call")
-        console.log("called");
+        
+        
         updateUser()
         navigate('/movies/home')
 

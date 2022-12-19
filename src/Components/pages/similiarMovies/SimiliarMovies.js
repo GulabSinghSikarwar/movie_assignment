@@ -14,7 +14,7 @@ function SimiliarMovies({ moviId }) {
     fetch(url).then((response) => {
       return response.json()
     }).then((data) => {
-      console.log(data);
+      
 
       setMovies(data.results)
     }).catch((e) => {

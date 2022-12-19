@@ -42,7 +42,7 @@ function HomePage() {
             fetch(fetch(`https://api.themoviedb.org/3/discover/movie?api_key=69cea534042a0e788d43bb54e5c6fcf6&page=${current}`).then((response) => {
                 return response.json()
             }).then((data) => {
-                console.log(data);
+                
                 setMovies((prevData) => {
                     return data.results;
 
